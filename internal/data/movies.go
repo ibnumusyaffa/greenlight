@@ -134,7 +134,7 @@ func (m MovieModel) Update(movie *Movie) error {
 		}
 	}
 
-	return ni
+	return nil
 }
 
 // Add a placeholder method for deleting a specific record from the movies table.
